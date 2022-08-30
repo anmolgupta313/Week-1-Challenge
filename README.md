@@ -11,6 +11,7 @@ by following all the instructions I am able to done this task and in this task I
 In CSS Style sheet I have added comments above each code and also optimzed teh code by combinig some code which was written separately for the same styling. 
 
 ## Link of the Web Page: 
+https://anmolgupta313.github.io/Week-1-Challenge/
 
 ## License
 
