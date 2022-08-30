@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+/* Adding background color of the body element*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Added padding background color and gave font style with color white*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ body {
     color: #ffffff;
 }
 
+/* Added a display condition of inline block to the h1 heading and set a font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* provided a different color to tthe seo part */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*In the header div added top padding and right margin plus added font size and font family and a float */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ body {
     font-size: 20px;
 }
 
+/* removed the list style in header div ul*/
 .header div ul {
     list-style-type: none;
 }
 
+/* added display consition of inline-block with a margin left*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* added color to a tags*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* gave a p element a font size of 16 px */
 p {
     font-size: 16px;
 }
 
+/*added some width,height and margin bottom with a background image as a cover center*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +68,7 @@ p {
     background-position: center;
 }
 
+/*added float to the images which is under marketing types*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +79,35 @@ p {
     margin-left: 25px;
 }
 
+/*Added a width to the content and display condition of inline-block with left margin*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*added some margin bottom, padding, height and changed the background color to blue with fomt family gill sans*/
+.Marketing-Types {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*kept the max height of marketing images to 200px*/
+.Marketing-Types img {
+    max-height: 200px;
+}
+
+/*added margin-bottom to the h2 headings of marketing types and a font size of 36px*/
+.Marketing-Types h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Added some margin-right, padding, width of 20%, and height of 100% with blue background color and gillsans font*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,40 +119,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Added some margin bottom and white color to benifits points*/
 .benefit-points {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Added magin-bottom and text align to center of benifits points h3*/
 .benefit-points h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*kept max width to 150px of benifit points icon with a top-bottom margin and display condition to block*/
 .benefit-points img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.Marketing-Types {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.Marketing-Types img {
-    max-height: 200px;
-}
-
-.Marketing-Types h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Added padding and Trebuchet Ms as a font with text align: center*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +146,7 @@ p {
     text-align: center;
 }
 
+/*made header font size to 20px*/
 .footer h2 {
     font-size: 20px;
 }
