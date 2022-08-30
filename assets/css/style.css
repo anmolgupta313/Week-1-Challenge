@@ -17,7 +17,7 @@ body {
 }
 
 /* Added a display condition of inline block to the h1 heading and set a font size*/
-.header h1 {
+.header     h1 {
     display: inline-block;
     font-size: 48px;
 }
